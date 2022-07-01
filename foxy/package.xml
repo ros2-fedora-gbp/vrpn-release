@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package>
+<package format="3">
   <name>vrpn</name>
   <version>:{version}</version>
   <description>The VRPN is a library and set of servers that interfaces with virtual-reality systems, such as VICON, OptiTrack, and others.</description>
