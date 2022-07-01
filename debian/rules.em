@@ -37,13 +37,6 @@ override_dh_auto_configure:
 	dh_auto_configure -- \
 		-DCMAKE_INSTALL_PREFIX="@(InstallationPrefix)" \
 		-DCMAKE_PREFIX_PATH="@(InstallationPrefix)" \
-		-DVRPN_BUILD_CLIENT_LIBRARY=ON \
-		-DVRPN_BUILD_JAVA=OFF \
-		-DVRPN_BUILD_PYTHON=OFF \
-		-DVRPN_BUILD_CLIENTS=OFF \
-		-DVRPN_BUILD_SERVERS=OFF \
-		-DVRPN_BUILD_SERVER_LIBRARY=OFF \
-		-DBUILD_TESTING=OFF \
 		$(BUILD_TESTING_ARG)
 
 override_dh_auto_build:
