@@ -19,8 +19,8 @@ tracks:
     patches: foxy
     release_inc: 0
     release_repo_url: null
-    release_tag: :{version}
+    release_tag: version_07.35
     ros_distro: foxy
     vcs_type: git
     vcs_uri: https://github.com/vrpn/vrpn.git
-    version: :{ask}
+    version: 7.35.0
