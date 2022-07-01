@@ -1,0 +1,31 @@
+From 88cae266a45105acbbfb7acb05a3ddf79a73bbf8 Mon Sep 17 00:00:00 2001
+From: Alvin Sun <alvinsunyixiao@gmail.com>
+Date: Fri, 1 Jul 2022 15:50:00 -0700
+Subject: [PATCH 2/2] Revert "customize debian rules files"
+
+This reverts commit 6028ab5874b6f8228d6cc1d462dec392639e2233.
+---
+ debian/rules.em | 7 -------
+ 1 file changed, 7 deletions(-)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index edaa708..284a071 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -37,13 +37,6 @@ override_dh_auto_configure:
+ 	dh_auto_configure -- \
+ 		-DCMAKE_INSTALL_PREFIX="@(InstallationPrefix)" \
+ 		-DCMAKE_PREFIX_PATH="@(InstallationPrefix)" \
+-		-DVRPN_BUILD_CLIENT_LIBRARY=ON \
+-		-DVRPN_BUILD_JAVA=OFF \
+-		-DVRPN_BUILD_PYTHON=OFF \
+-		-DVRPN_BUILD_CLIENTS=OFF \
+-		-DVRPN_BUILD_SERVERS=OFF \
+-		-DVRPN_BUILD_SERVER_LIBRARY=OFF \
+-		-DBUILD_TESTING=OFF \
+ 		$(BUILD_TESTING_ARG)
+ 
+ override_dh_auto_build:
+-- 
+2.25.1
+

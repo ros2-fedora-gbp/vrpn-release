@@ -1,7 +1,7 @@
-From 7c2d9d02e4f418413028fcae8f944ddd1b7ad32e Mon Sep 17 00:00:00 2001
+From 6028ab5874b6f8228d6cc1d462dec392639e2233 Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Fri, 1 Jul 2022 13:30:21 -0700
-Subject: [PATCH] customize debian rules files
+Subject: [PATCH 1/2] customize debian rules files
 
 ---
  debian/rules.em | 7 +++++++
