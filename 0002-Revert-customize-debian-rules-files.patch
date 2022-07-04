@@ -1,4 +1,4 @@
-From 88cae266a45105acbbfb7acb05a3ddf79a73bbf8 Mon Sep 17 00:00:00 2001
+From c6b9bdb54078b3ceb62ecfe6021b573c3be08014 Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Fri, 1 Jul 2022 15:50:00 -0700
 Subject: [PATCH 2/2] Revert "customize debian rules files"

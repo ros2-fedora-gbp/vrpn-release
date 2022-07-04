@@ -1,4 +1,4 @@
-From 6028ab5874b6f8228d6cc1d462dec392639e2233 Mon Sep 17 00:00:00 2001
+From bb407a9be21f187e47a346b48728795dff3612f2 Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Fri, 1 Jul 2022 13:30:21 -0700
 Subject: [PATCH 1/2] customize debian rules files
