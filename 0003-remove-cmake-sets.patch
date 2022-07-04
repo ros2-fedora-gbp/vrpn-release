@@ -1,4 +1,4 @@
-From e9c294ce634b2b73f069a30ec44439fdeb2d81c8 Mon Sep 17 00:00:00 2001
+From 2252471b7f0ef28c8d9f1ac1c43ff60d590102bd Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Fri, 1 Jul 2022 13:18:56 -0700
 Subject: [PATCH 3/5] remove cmake sets
