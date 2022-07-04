@@ -1,4 +1,4 @@
-From 63c40a478ea44cbba1db37e4e469903d8254860a Mon Sep 17 00:00:00 2001
+From 08d6dadadc58d3e96eb9913822003141aea990d5 Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Thu, 30 Jun 2022 20:46:29 -0700
 Subject: [PATCH 1/5] also install cmake config
