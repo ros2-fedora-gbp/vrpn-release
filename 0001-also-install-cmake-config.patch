@@ -1,4 +1,4 @@
-From f004a08bbca4f7aa5e1b46ecbea5e08480f3ba71 Mon Sep 17 00:00:00 2001
+From e430e763278349c1204b403fad976710dfe9bf3e Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Thu, 30 Jun 2022 20:46:29 -0700
 Subject: [PATCH 1/5] also install cmake config
@@ -42,5 +42,5 @@ index 2ee42ba..169f812 100644
 +        DESTINATION share/quatlib/cmake
 +        RENAME quatlibConfig.cmake)
 -- 
-2.25.1
+2.34.1
 
