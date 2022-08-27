@@ -49,7 +49,7 @@ tracks:
     release_inc: '8'
     release_repo_url: null
     release_tag: version_07.35
-    ros_distro: foxy
+    ros_distro: humble
     vcs_type: git
     vcs_uri: https://github.com/vrpn/vrpn.git
     version: 7.35.0
