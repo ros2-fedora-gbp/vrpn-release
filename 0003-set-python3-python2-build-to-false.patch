@@ -1,4 +1,4 @@
-From a6e474a42349de19a9f573d2b53e9d1528789d4e Mon Sep 17 00:00:00 2001
+From 9d8324be3abcde36358b1d5a4ae117865445d924 Mon Sep 17 00:00:00 2001
 From: Alvin Sun <alvinsunyixiao@gmail.com>
 Date: Fri, 1 Jul 2022 15:49:36 -0700
 Subject: [PATCH 3/3] set python3 python2 build to false
@@ -31,5 +31,5 @@ index 16db0e1..057daf7 100644
  if((NOT CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR) OR VRPN_SUBPROJECT_BUILD)
  	# If you're using this as a subproject and want things installed, set VRPN_INSTALL TRUE.
 -- 
-2.39.2
+2.34.1
 
